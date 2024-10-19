@@ -14,7 +14,7 @@ const Header = () => {
     ];
 
     return (
-        <Navbar maxWidth="2xl" className="bg-transparent mx-auto mt-5 md:border-2 md:w-11/12 rounded-xl" onMenuOpenChange={setIsMenuOpen}>
+        <Navbar maxWidth="2xl" className="bg-white mx-auto md:mt-5 md:border-2 md:w-11/12 md:rounded-xl " onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
